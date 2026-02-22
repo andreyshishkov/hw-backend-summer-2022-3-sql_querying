@@ -9,6 +9,8 @@ FROM
     flights
 ORDER BY
     2
+LIMIT
+    5
 """
 #  flight_no | duration
 # -----------+----------
