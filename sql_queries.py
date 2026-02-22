@@ -2,6 +2,13 @@
 # Duration - разница между scheduled_arrival и scheduled_departure.
 # В ответе должно быть 2 колонки [flight_no, duration]
 TASK_1_QUERY = """
+SELECT
+    flight_no,
+    scheduled_arrival - scheduled_departure AS duration
+FROM
+    flights
+ORDER BY
+    2
 """
 #  flight_no | duration
 # -----------+----------
