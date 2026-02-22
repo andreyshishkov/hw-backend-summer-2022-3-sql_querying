@@ -35,7 +35,7 @@ GROUP BY
 HAVING
     COUNT(*) < 50
 ORDER BY
-    1 DESC
+    2 DESC
 LIMIT
     3;
 """
